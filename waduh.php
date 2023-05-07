@@ -1,6 +1,4 @@
 <?php
-//Lo9ic
-//For SGB TEAM Only
  
 function request($url, $data = null, $headers = null)
 {
