@@ -58,7 +58,7 @@ $headers[] = "accept-language: en";
 $headers[] = "x-visitor-id: $uuid";
 $headers[] = "content-type: application/json; charset=UTF-8";
 $headers[] = "accept-encoding: gzip";
-$data = '{"serial_number":"'.$num.'","partner_agent":"polytron"}';
+$data = '{"serial_number":"'.$num.'","partner_agent":"Polytron 2K Smart TV"}';
 $partnerAuth = request($url, $data, $headers);
 if(strpos($partnerAuth, 'authentication_token')!==false)
 {
